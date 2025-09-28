@@ -7,14 +7,8 @@ export const Footer = () => {
         <div className="flex justify-center">
           {/* Social Links */}
           <div className="flex gap-4">
-            <a href="#" className="text-background/70 hover:text-background transition-colors">
+            <a href="https://x.com/GetLewt" className="text-background/70 hover:text-background transition-colors">
               Twitter
-            </a>
-            <a href="#" className="text-background/70 hover:text-background transition-colors">
-              Discord
-            </a>
-            <a href="#" className="text-background/70 hover:text-background transition-colors">
-              GitHub
             </a>
           </div>
         </div>
