@@ -22,8 +22,7 @@ export const Hero = () => {
         
         {/* Subheadline */}
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-slide-up [animation-delay:0.2s]">
-          Send crypto with confidence. For the first time, you can transfer tokens 
-          knowing a simple mistake won't cost you everything.
+          Send crypto with confidence. Lewt is a simple, secure layer on Solana that lets you cancel mistaken transfers before they become permanent.
         </p>
         
         {/* Value proposition */}
@@ -41,14 +40,14 @@ export const Hero = () => {
             size="lg" 
             className="text-lg px-8 py-4 bg-gradient-primary hover:shadow-glow transition-all duration-300 hover:scale-105"
           >
-            Get Started
+            Coming soon
           </Button>
           <Button 
             variant="outline" 
             size="lg" 
             className="text-lg px-8 py-4 border-2 hover:bg-accent transition-all duration-300"
           >
-            Watch Demo
+            Coming soon
           </Button>
         </div>
         
