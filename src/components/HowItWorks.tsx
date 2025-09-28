@@ -60,21 +60,6 @@ export const HowItWorks = () => {
               </div>
             ))}
           </div>
-          
-          {/* Call to action */}
-          <div className="text-center mt-16">
-            <div className="bg-gradient-hero rounded-2xl p-8 border border-border">
-              <h3 className="text-2xl font-semibold text-foreground mb-4">
-                Ready to send crypto with confidence?
-              </h3>
-              <p className="text-muted-foreground mb-6 text-lg">
-                Join thousands of users who have eliminated the fear of crypto mistakes.
-              </p>
-              <button className="bg-gradient-primary text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:shadow-glow transition-all duration-300 hover:scale-105">
-                Start Using Lewt
-              </button>
-            </div>
-          </div>
         </div>
       </div>
     </section>

@@ -40,14 +40,7 @@ export const Hero = () => {
             size="lg" 
             className="text-lg px-8 py-4 bg-gradient-primary hover:shadow-glow transition-all duration-300 hover:scale-105"
           >
-            Coming soon
-          </Button>
-          <Button 
-            variant="outline" 
-            size="lg" 
-            className="text-lg px-8 py-4 border-2 hover:bg-accent transition-all duration-300"
-          >
-            Coming soon
+            Demo Coming Soon
           </Button>
         </div>
         
