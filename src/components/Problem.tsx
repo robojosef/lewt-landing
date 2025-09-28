@@ -9,8 +9,8 @@ export const Problem = () => {
             Your crypto needs a <span className="text-primary">safety net</span>, too.
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Every day, millions of dollars are lost to simple mistakes in crypto transactions. 
-            One wrong address, one misplaced decimal, and your funds are gone forever.
+            Gmail gives you 30 seconds to 'Undo Send'.
+            Why should your money have less protection than your email?
           </p>
         </div>
         

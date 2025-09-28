@@ -25,15 +25,6 @@ export const Hero = () => {
           Send crypto with confidence. Lewt is a simple, secure layer on Solana that lets you cancel mistaken transfers before they become permanent.
         </p>
         
-        {/* Value proposition */}
-        <div className="bg-card/50 backdrop-blur-sm border border-border rounded-xl p-6 mb-8 max-w-2xl mx-auto animate-slide-up [animation-delay:0.4s]">
-          <p className="text-lg text-foreground">
-            Gmail gives you 30 seconds to 'Undo Send'. 
-            <br />
-            <strong>Why should your money have less protection than your email?</strong>
-          </p>
-        </div>
-        
         {/* CTA buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up [animation-delay:0.6s]">
           <Button 
