@@ -23,10 +23,6 @@ export const Footer = () => {
           <p className="text-background/50 text-sm">
             © 2025 Lewt Labs. All rights reserved.
           </p>
-          <div className="flex gap-6 text-sm text-background/50 mt-4 md:mt-0">
-            <a href="#" className="hover:text-background transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-background transition-colors">Terms of Service</a>
-          </div>
         </div>
       </div>
     </footer>
