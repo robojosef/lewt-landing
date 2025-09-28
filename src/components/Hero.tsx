@@ -62,10 +62,6 @@ export const Hero = () => {
             <div className="w-2 h-2 bg-green-500 rounded-full"></div>
             <span>Non-custodial</span>
           </div>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-            <span>Audited</span>
-          </div>
         </div>
       </div>
     </section>
