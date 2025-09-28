@@ -53,7 +53,7 @@ export const Footer = () => {
         
         <div className="border-t border-background/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-background/50 text-sm">
-            © 2024 Lewt. All rights reserved.
+            © 2025 Lewt Labs. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-background/50 mt-4 md:mt-0">
             <a href="#" className="hover:text-background transition-colors">Privacy Policy</a>
