@@ -8,7 +8,7 @@ export const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <img src={logo} alt="Lewt" className="h-8 w-8 brightness-0 invert" />
+              <img src={logo} alt="Lewt" className="h-8 w-8" />
               <span className="text-2xl font-bold">Lewt</span>
             </div>
             <p className="text-background/70 mb-6 max-w-md">
