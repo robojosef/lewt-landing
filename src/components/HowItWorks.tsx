@@ -25,11 +25,11 @@ export const HowItWorks = () => {
   return (
     <section className="py-24 bg-background">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="max-w-4xl mx-auto text-left mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
             How Lewt Works
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground">
             Our three-step process gives you complete control over your crypto transfers, 
             eliminating the fear of irreversible mistakes.
           </p>
@@ -42,8 +42,8 @@ export const HowItWorks = () => {
             
             {steps.map((step, index) => (
               <div key={index} className="relative">
-                <div className="text-center">
-                  <div className={`w-16 h-16 ${step.color} rounded-full flex items-center justify-center mx-auto mb-6 relative z-10 bg-card border-4 border-background`}>
+                <div className="text-left">
+                  <div className={`w-16 h-16 ${step.color} rounded-full flex items-center justify-center mb-6 relative z-10 bg-card border-4 border-background`}>
                     <step.icon className="w-8 h-8" />
                   </div>
                   

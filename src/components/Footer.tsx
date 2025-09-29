@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-16">
       <div className="container mx-auto px-6">
-        <div className="flex justify-center">
+        <div className="flex justify-start">
           {/* Social Links */}
           <div className="flex gap-4">
             <a href="https://x.com/GetLewt" className="text-background/70 hover:text-background transition-colors">
@@ -13,7 +13,7 @@ export const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-background/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-background/20 mt-12 pt-8 flex flex-col md:flex-row justify-start items-start">
           <p className="text-background/50 text-sm">
             © 2025 Lewt Labs. All rights reserved.
           </p>

@@ -4,7 +4,7 @@ export const Mission = () => {
   return (
     <section className="py-24 bg-gradient-subtle">
       <div className="container mx-auto px-6">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-left">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-8">
             Our Mission
           </h2>
@@ -21,8 +21,8 @@ export const Mission = () => {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 mt-16">
-            <div className="p-6">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+            <div className="p-6 text-left">
+              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Zap className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">Powerful</h3>
@@ -31,8 +31,8 @@ export const Mission = () => {
               </p>
             </div>
             
-            <div className="p-6">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+            <div className="p-6 text-left">
+              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Users className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">Accessible</h3>
@@ -41,8 +41,8 @@ export const Mission = () => {
               </p>
             </div>
             
-            <div className="p-6">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+            <div className="p-6 text-left">
+              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Heart className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">Human-First</h3>

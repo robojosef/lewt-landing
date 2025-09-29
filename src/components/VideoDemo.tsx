@@ -99,7 +99,7 @@ export const VideoDemo: React.FC<VideoDemoProps> = ({
       </div>
       
       {duration > 0 && (
-        <div className="mt-2 text-sm text-gray-600">
+        <div className="mt-2 text-sm text-gray-600 text-left">
           {formatTime(currentTime)} / {formatTime(duration)}
         </div>
       )}
@@ -112,38 +112,38 @@ export const VideoShowcase: React.FC = () => {
   return (
     <div className="space-y-8">
       <div>
-        <h2 className="text-2xl font-bold mb-4">High Quality Demo</h2>
+        <h2 className="text-2xl font-bold mb-4 text-left">High Quality Demo</h2>
         <VideoDemo 
           src="/demo.webm" 
           poster="/placeholder.svg"
           className="max-w-4xl"
         />
-        <p className="text-sm text-gray-600 mt-2">
+        <p className="text-sm text-gray-600 mt-2 text-left">
           1280×720, 30fps, 860KB - Optimized for desktop viewing
         </p>
       </div>
       
       <div>
-        <h2 className="text-2xl font-bold mb-4">Mobile Optimized</h2>
+        <h2 className="text-2xl font-bold mb-4 text-left">Mobile Optimized</h2>
         <VideoDemo 
           src="/demo-small.webm" 
           poster="/placeholder.svg"
           className="max-w-2xl"
         />
-        <p className="text-sm text-gray-600 mt-2">
+        <p className="text-sm text-gray-600 mt-2 text-left">
           854×480, 24fps, 406KB - Optimized for mobile devices
         </p>
       </div>
       
       <div>
-        <h2 className="text-2xl font-bold mb-4">With Audio</h2>
+        <h2 className="text-2xl font-bold mb-4 text-left">With Audio</h2>
         <VideoDemo 
           src="/demo-with-audio.webm" 
           poster="/placeholder.svg"
           className="max-w-4xl"
           muted={false}
         />
-        <p className="text-sm text-gray-600 mt-2">
+        <p className="text-sm text-gray-600 mt-2 text-left">
           1280×720, 30fps, 881KB - Includes audio track
         </p>
       </div>
