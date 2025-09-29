@@ -19,10 +19,8 @@ export const Hero = () => {
           </div>
           
           {/* Main headline */}
-          <h2 className="text-5xl md:text-7xl font-bold text-foreground mb-6 text-left animate-slide-up">
-            The <span className="bg-gradient-primary bg-clip-text text-transparent">Undo Button</span>
-            <br />
-            for DeFi
+          <h2 className="text-5xl md:text-7xl font-bold text-foreground mb-6 text-center animate-slide-up">
+            The <span className="bg-gradient-primary bg-clip-text text-transparent">Undo Button</span> for DeFi
           </h2>
           
           {/* Subheadline */}
