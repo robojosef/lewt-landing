@@ -30,11 +30,11 @@ export const Hero = () => {
         </div>
 
         {/* Demo Video */}
-        <div className="mb-12 animate-slide-up [animation-delay:0.4s]">
+        <div className="mb-12 animate-slide-up [animation-delay:0.4s] flex justify-center">
           <VideoDemo 
             src="/demo.webm"
             poster="/demo-poster.jpg"
-            className="max-w-4xl mx-auto"
+            className=""
             controls={true}
             muted={false}
           />

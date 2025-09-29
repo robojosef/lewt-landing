@@ -61,7 +61,7 @@ export const VideoDemo: React.FC<VideoDemoProps> = ({
       <div className="relative">
         <video
           ref={videoRef}
-          className="w-full h-auto rounded-lg shadow-lg"
+          className="w-[320px] h-[510px] rounded-lg shadow-lg object-cover"
           poster={poster}
           onTimeUpdate={handleTimeUpdate}
           onLoadedMetadata={handleLoadedMetadata}
