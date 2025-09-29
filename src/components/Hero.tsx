@@ -30,6 +30,7 @@ export const Hero = () => {
         <div className="mb-12 animate-slide-up [animation-delay:0.4s]">
           <VideoDemo 
             src="/demo.webm"
+            poster="/demo-poster.jpg"
             className="max-w-4xl mx-auto"
             controls={true}
             muted={false}
