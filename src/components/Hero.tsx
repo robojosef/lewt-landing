@@ -44,7 +44,8 @@ export const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up [animation-delay:0.6s] mb-16">
           <Button 
             size="lg" 
-            className="text-lg px-8 py-4 bg-gradient-primary hover:shadow-glow transition-all duration-300 hover:scale-105"
+            disabled
+            className="text-lg px-8 py-4 bg-gray-500 text-gray-300 cursor-not-allowed opacity-60"
           >
             Devnet Coming Soon
           </Button>
