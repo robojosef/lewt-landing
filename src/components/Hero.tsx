@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo.svg";
+import { VideoDemo } from "./VideoDemo";
 
 export const Hero = () => {
   return (
@@ -24,6 +25,16 @@ export const Hero = () => {
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-slide-up [animation-delay:0.2s]">
           Send crypto with confidence. Lewt is a simple, secure layer on Solana that lets you cancel mistaken transfers before they become permanent.
         </p>
+
+        {/* Demo Video */}
+        <div className="mb-12 animate-slide-up [animation-delay:0.4s]">
+          <VideoDemo 
+            src="/demo.webm"
+            className="max-w-4xl mx-auto"
+            controls={true}
+            muted={false}
+          />
+        </div>
         
         {/* CTA buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up [animation-delay:0.6s]">
