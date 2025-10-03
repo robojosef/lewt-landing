@@ -1,19 +1,29 @@
 import { Shield } from "lucide-react";
 import chestKey from "../assets/chest-key-256.png";
 import secretLocation from "../assets/secret-location-256.png";
+import twoFactor from "../assets/two-factor-256.png";
 
 export const TwoFactor = () => {
   return (
     <section className="py-24 bg-gradient-subtle">
       <div className="container mx-auto px-6">
-        <div className="max-w-4xl mx-auto text-left mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
+        <div className="max-w-6xl mx-auto mb-16">
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-12 text-center">
             Don't Just Send. Hand off securely with <span className="text-primary">Two-Factor Transfers.</span>
           </h2>
-          <p className="text-xl text-muted-foreground">
-          A standard crypto transfer has only one point of failure: the recipient address. Once you hit 'Confirm', your assets are gone, whether you meant to send them or not.
-          Lewt fixes this by introducing Two-Factor Transfers (2FT), a fundamentally new and safer way to move value. We separate the transaction into two distinct, user-controlled layers.
-          </p>
+          
+          <div className="grid md:grid-cols-3 gap-12 items-center">
+            <div className="flex justify-center">
+              <img src={twoFactor} alt="Two-Factor Transfer concept" className="w-64 h-64" />
+            </div>
+            
+            <div className="text-left md:col-span-2">
+              <p className="text-xl text-muted-foreground">
+              A standard crypto transfer has only one point of failure: the recipient address. Once you hit 'Confirm', your assets are gone, whether you meant to send them or not.
+              Lewt fixes this by introducing Two-Factor Transfers (2FT), a fundamentally new and safer way to move value. We separate the transaction into two distinct, user-controlled layers.
+              </p>
+            </div>
+          </div>
         </div>
         
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
