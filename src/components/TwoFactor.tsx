@@ -1,14 +1,14 @@
 import { Shield } from "lucide-react";
 import chestKey from "../assets/chest-key-256.png";
 import secretLocation from "../assets/secret-location-256.png";
-import twoFactor from "../assets/two-factor-256.png";
+import twoFactor from "../assets/two-factor-full-res.png";
 
 export const TwoFactor = () => {
   return (
     <section className="py-24 bg-gradient-subtle">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-12 text-center">
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-12">
             Don't Just Send. Hand off securely with <span className="text-primary">Two-Factor Transfers.</span>
           </h2>
           
