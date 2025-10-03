@@ -1,4 +1,5 @@
-import { AlertTriangle, Shield, Car } from "lucide-react";
+import { Shield, Car } from "lucide-react";
+import chestKey from "../assets/chest-key-256.png";
 
 export const TwoFactor = () => {
   return (
@@ -17,7 +18,7 @@ export const TwoFactor = () => {
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <div className="text-left p-8 bg-card rounded-xl shadow-soft border border-border">
             <div className="w-16 h-16 bg-red-100 dark:bg-red-950 rounded-full flex items-center justify-center mb-6">
-              <AlertTriangle className="w-8 h-8 text-red-600 dark:text-red-400" />
+              <img src={chestKey} alt="Chest key" className="w-16 h-16" />
             </div>
             <h3 className="text-xl font-semibold text-foreground mb-4">Factor 1: the recipient address</h3>
             <p className="text-muted-foreground">
