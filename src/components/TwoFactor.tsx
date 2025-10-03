@@ -20,7 +20,7 @@ export const TwoFactor = () => {
             <div className="text-left md:col-span-2">
               <p className="text-xl text-muted-foreground">
               A standard crypto transfer has only one point of failure: the recipient address. Once you hit 'Confirm', your assets are gone, whether you meant to send them or not.
-              Lewt fixes this by introducing Two-Factor Transfers (2FT), a fundamentally new and safer way to move value. We separate the transaction into two distinct, user-controlled layers.
+              Lewt fixes this by introducing Two-Factor Transfers (2FT), a fundamentally new and safer way to move value. We added a new layer of security to the transaction.
               </p>
             </div>
           </div>
