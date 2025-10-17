@@ -16,7 +16,7 @@ export const TestTransfers = () => {
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="text-left p-8 bg-card rounded-xl shadow-soft border border-border">
-              <h3 className="text-xl font-semibold text-foreground mb-6">The Old Way</h3>
+              <h3 className="text-xl font-semibold text-foreground mb-6">Before Lewt</h3>
               <div className="space-y-4 font-mono text-sm">
                 <div>
                   <div className="text-blue-600 dark:text-blue-400">Alice:</div>
@@ -72,9 +72,6 @@ export const TestTransfers = () => {
                   <div className="text-blue-600 dark:text-blue-400">Alice:</div>
                   <div className="text-muted-foreground ml-4">got it!</div>
                 </div>
-              </div>
-              <div className="mt-8 text-center">
-                <p className="text-sm text-primary font-semibold">Simple. Fast. Confident.</p>
               </div>
             </div>
           </div>
